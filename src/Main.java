@@ -1,20 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 25;
+        double salary = 55000.75;
 
-        System.out.println(age);
+        int bonus = 5000;
 
-        age = 26;
+        int totalsalary = (int)salary + bonus;      //캐스팅(명시적 현변환)
 
-        System.out.println(age);
+        System.out.println("My Salary: "+ totalsalary);
 
-        double salary = 50000.75;
+        String a = "Hello";
 
-        System.out.println(salary);
-
-        String name = "신동원";
-
-        System.out.println(name);
+        System.out.println(a.toUpperCase());
 
     }
 }
